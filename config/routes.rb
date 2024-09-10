@@ -7,4 +7,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  # I can get all cafes
+  get 'api/v1/cafes'
+
+  # I can create a cafe
+  post 'api/v1/cafes'
 end
